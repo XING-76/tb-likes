@@ -47,32 +47,31 @@ class ProductCard extends React.Component{
     const { products, loading } = this.state
     return (
       <>
-      <Content className="card-content">
-        <Row gutter={16}>
-          {
-            loading ? 
-            (
-                <main>
-                  <Loading />
-                </main>
-            ) :
-            products.map((prodObj) => {
-              return (
-                <Col span={8} xs={12} sm={12} md={8} lg={4} key={prodObj.id}>
-                  <Card
-                    cover={<Image src={prodObj.imageUrl}/>}
-                    className="card-custom"
-                  >
-                    <Meta title={prodObj.title} style={{marginBottom: '1rem'}} />
-                    <Button style={{fontWeight: 'bold' }} onClick={() => this.addLikes(prodObj)}>加入最愛</Button>
-                    {/* <button className="product-btn" onClick={(e) => this.addLikes(prodObj)}>加入最愛</button> */}
-                  </Card>
-                </Col>
-              )
-            })
-          }
-        </Row>
-      </Content>
+        {
+          loading ? 
+          (
+            <main>
+              <Loading />
+            </main>
+          ) :
+          products.map((prodObj) => {
+            return (
+              <Content className="card-content">
+                <Row gutter={16}>
+                  <Col span={8} xs={12} sm={12} md={8} lg={4} key={prodObj.id}>
+                    <Card
+                      cover={<Image src={prodObj.imageUrl}/>}
+                      className="card-custom"
+                    >
+                      <Meta title={prodObj.title} style={{marginBottom: '1rem'}} />
+                      <Button style={{fontWeight: 'bold' }} onClick={() => this.addLikes(prodObj)}>加入最愛</Button>
+                    </Card>
+                  </Col>
+                </Row>
+              </Content>
+            )
+          })
+        }
     </>
     )
   }
