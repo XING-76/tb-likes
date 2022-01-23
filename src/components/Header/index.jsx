@@ -5,6 +5,7 @@ import { Row, Col } from 'antd';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import MyNavLink from '../MyNavLink'
+import Logo from '../../assets/logo.png'
 
 import './index.css'
 
@@ -19,7 +20,7 @@ function Header() {
       <Row style={{textAlign: 'center'}}>
         <Col className="navbar" xs={6}  sm={8} md={6} lg={6}>
           <MyNavLink to="/">
-            <img src="../../assets/logo.png" alt=""  className="logo-btn"/>
+            <img src={Logo} alt="logo"  className="logo-btn"/>
           </MyNavLink>
         </Col>
         <Col className="navbar2" xs={12} sm={8} md={12} lg={12}>
