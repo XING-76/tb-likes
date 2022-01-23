@@ -19,8 +19,8 @@ function Header() {
       <Row style={{textAlign: 'center'}}>
         <Col className="navbar" xs={6}  sm={8} md={6} lg={6}>
           <MyNavLink to="/">
-          {/* <img src={process.env.REACT_APP_URL + '/img/logo.png'} alt="" /> */}
-            <img src="%PUBLIC_URL%/logo.png" alt="" className="logo-btn"/>
+            <img src={process.env.REACT_APP_PUBLIC_URL + '/logo.png'} alt="" />
+            {/* <img src="%PUBLIC_URL%/logo.png" alt="" className="logo-btn"/> */}
           </MyNavLink>
         </Col>
         <Col className="navbar2" xs={12} sm={8} md={12} lg={12}>
