@@ -25,7 +25,8 @@ class ProductCard extends React.Component{
   fetchData = async () => {
     this.setState({ loading: true })
     try{
-      const response = await fetch('https://vue3-course-api.hexschool.io/api/tb-ecommerce/products/all')
+      // const response = await fetch('https://vue3-course-api.hexschool.io/api/tb-ecommerce/products/all')
+      const response = await fetch(`${process.env.REACT_APP_API}/api/${process.env.REACT_APP_PATH}/products/all`)
       const resObj = await response.json()
       this.setState({
         products: resObj.products,
