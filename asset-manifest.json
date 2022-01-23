@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bede5070.css",
+    "main.js": "/static/js/main.ba60e675.js",
+    "index.html": "/index.html",
+    "main.bede5070.css.map": "/static/css/main.bede5070.css.map",
+    "main.ba60e675.js.map": "/static/js/main.ba60e675.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bede5070.css",
+    "static/js/main.ba60e675.js"
+  ]
+}
