@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.bede5070.css",
-    "main.js": "/static/js/main.ba60e675.js",
-    "index.html": "/index.html",
-    "main.bede5070.css.map": "/static/css/main.bede5070.css.map",
-    "main.ba60e675.js.map": "/static/js/main.ba60e675.js.map"
+    "main.css": "/XING-76/tb-likes/static/css/main.bede5070.css",
+    "main.js": "/XING-76/tb-likes/static/js/main.ba60e675.js",
+    "index.html": "/XING-76/tb-likes/index.html",
+    "main.bede5070.css.map": "/XING-76/tb-likes/static/css/main.bede5070.css.map",
+    "main.ba60e675.js.map": "/XING-76/tb-likes/static/js/main.ba60e675.js.map"
   },
   "entrypoints": [
     "static/css/main.bede5070.css",
