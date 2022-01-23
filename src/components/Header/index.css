@@ -1,0 +1,59 @@
+/* Header */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 50%);
+}
+
+.navbar {
+    background-color: #2a2f35;
+    height: 4rem;
+    justify-content: center;
+    display: flex;
+}
+
+.navbar2 {
+    background-color: #2a2f35;
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 4rem;
+    font-weight: bold;
+}
+
+.logo-btn {
+    height: 100%;
+}
+.logo-btn:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.likes-btn {
+    position: relative;
+    height: 100%;
+    width: 3rem;
+}
+
+.likes-qty {
+    border-radius: 50%;
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+    top: 0.5rem;
+    right: -0.3rem;
+    transition: 0.5s;
+    transform: scale(0.75);
+    background-color: #ff211e;
+    width: 1.3rem;
+    height: 1.3rem;
+    line-height: 1.3rem;
+    color: #fff;
+}
+
+.list-group-item svg:hover {
+    color: #bb986c !important;
+    transition: 1s;
+}
