@@ -4,8 +4,8 @@ set -e
 # 建立輸出檔案
 yarn build
 
-# 移動至到打包後的dist目錄 
-cd dist
+# 移動至到打包後的 build 目錄 
+cd build
 
 # 因為dist資料夾預設是被ignore的，因此在進入dist資料夾後初始化git
 git init 
