@@ -1,7 +1,7 @@
 {
   "name": "react-likes",
   "version": "0.1.0",
-  "homepage": "https://github.com/XING-76/tb-likes",
+  "homepage": "https://xing-76.github.io/tb-likes/",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
@@ -28,6 +28,7 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
