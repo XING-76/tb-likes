@@ -4,7 +4,7 @@ import { connect, useSelector } from 'react-redux'
 import { Row, Col } from 'antd';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
-import MyNavLink from '../MyNavLink'
+import MyNavLink from '../../components/MyNavLink'
 import Logo from '../../assets/logo.png'
 
 import './index.css'

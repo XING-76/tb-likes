@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col, Layout } from 'antd';
 import { Button, Card, Image } from 'antd';
-import Loading from '../Loading'
+import Loading from '../../components/Loading'
 
 import { createAddLikes } from '../../redux/actions/likes'
 import { connect } from 'react-redux'
@@ -25,7 +25,6 @@ class ProductCard extends React.Component{
   fetchData = async () => {
     this.setState({ loading: true })
     try{
-      // const response = await fetch('https://vue3-course-api.hexschool.io/api/tb-ecommerce/products/all')
       // const url = `${process.env.REACT_APP_API}/api/${process.env.REACT_APP_PATH}/products/all`
       const url = `https://vue3-course-api.hexschool.io/api/tb-ecommerce/products/all`
       const response = await fetch(url)

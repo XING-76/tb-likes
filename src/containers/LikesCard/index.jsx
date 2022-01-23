@@ -5,8 +5,8 @@ import { connect, useSelector, useDispatch } from 'react-redux'
 
 import { Row, Col, Layout, Empty } from 'antd';
 import { Button, Card, Image } from 'antd';
-import Loading from '../Loading'
-import MyNavLink from '../MyNavLink'
+import Loading from '../../components/Loading'
+import MyNavLink from '../../components/MyNavLink'
 
 import '../ProductCard/index.css'
 
