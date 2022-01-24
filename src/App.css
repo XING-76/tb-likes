@@ -7,21 +7,21 @@
 } */
 
 .ant-btn {
-    background: #7d879c;
-    border-color: #7d879c;
-    color: #fff;
-    transition: 0.5s;
+  background: #7d879c;
+  border-color: #7d879c;
+  color: #fff;
+  transition: 0.5s;
 }
 
 .ant-btn:hover {
-    background: #bb986c;
-    border-color: #bb986c;
-    color: #fff;
+  background: #bb986c;
+  border-color: #bb986c;
+  color: #fff;
 }
 
 .ant-btn:active,
 .ant-btn:focus {
-    background: #7d879c;
-    border-color: #7d879c;
-    color: #fff;
+  background: #7d879c;
+  border-color: #7d879c;
+  color: #fff;
 }
